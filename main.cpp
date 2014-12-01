@@ -45,12 +45,27 @@ int main(int argc, char* argv[]) {
 
 	}
 
-	cout << endl << "Dequeuing all values >>       ";
+	cout << endl << "Dequeuing 5 values >>         ";
+
+	for (int i = 0; i < 5; i++)
+		cout << q.retrieve() << " ";
+
+	
+	cout << endl << "Enqueuing 5 more >>           ";
+
+	for (int i = 0; i < 5; i++) {
+
+		tmp = rand() % 90 + 10;
+		q.store(tmp);
+		cout << tmp << " ";
+
+	}
+
+	cout << endl << "Dequeue all values >>         ";
 
 	for (int i = 0; i < 10; i++)
 		cout << q.retrieve() << " ";
 
-	
 	cout << endl << endl;
 
 	return 0;
