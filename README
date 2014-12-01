@@ -1,0 +1,27 @@
+@Author: 	Jeff Berube
+@ID:		4356171
+@Title:		List Stack Queue (Assignment #6 - CS2010)
+	
+
+@Description:	Demonstrates how to extend a base class with virtual functions.
+
+
+@Compile:	To compile, type 
+
+		make 
+
+		inside program directory.
+
+
+@How to use:	To use, type
+
+		./lsq
+
+		inside program directory.
+
+
+@Git:		To clone into directory, type
+
+		git clone https://github.com/jeffberube/lsq.git
+
+		inside directory.
